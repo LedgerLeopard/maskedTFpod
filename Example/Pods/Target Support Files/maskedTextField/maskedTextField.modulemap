@@ -1,0 +1,6 @@
+framework module maskedTextField {
+  umbrella header "maskedTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

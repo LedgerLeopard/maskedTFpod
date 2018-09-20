@@ -1,0 +1,16 @@
+PODS:
+  - maskedTextField (0.1.0)
+
+DEPENDENCIES:
+  - maskedTextField (from `../`)
+
+EXTERNAL SOURCES:
+  maskedTextField:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  maskedTextField: aae443f599ceb6936acefe3b8aeb6a85bade2767
+
+PODFILE CHECKSUM: 9da388098167fb9e4afa8ba226f1981eddf5785e
+
+COCOAPODS: 1.5.3

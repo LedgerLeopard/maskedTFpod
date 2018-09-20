@@ -1,0 +1,22 @@
+{
+  "name": "maskedTextField",
+  "version": "0.1.0",
+  "summary": "A short description of maskedTextField.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/iuriigushchin/maskedTextField",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "iuriigushchin": "yurii.gushchin@ledgerleopard.com"
+  },
+  "source": {
+    "git": "https://github.com/iuriigushchin/maskedTextField.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "maskedTextField/Classes/**/*"
+}
