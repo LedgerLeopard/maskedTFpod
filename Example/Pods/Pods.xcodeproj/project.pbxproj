@@ -10,6 +10,7 @@
 		361439BC105C0E8EA5B102B8CB032F3F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FAF479154FB520AAF0917979AEF1E1 /* ReplaceMe.swift */; };
 		53E72CC5DA3280C149EFC9CDA795721C /* maskedTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFDDEB1F6779EA36CCBE951737FD9375 /* maskedTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59D810C99A94E635C253840619E8F76B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		5C7C01B42153F80A00854FA0 /* maskedTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7C01B32153F80A00854FA0 /* maskedTextFieldDelegate.swift */; };
 		8C99F0282F6F94A3B2F11A9F1759EFC2 /* maskedTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF170FC80C3EE193CC63BAFC7D556057 /* maskedTextField-dummy.m */; };
 		957230E7ABCCA84452796D9B1EB0F7B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		A3793A93337E2D83FBE30ED46981B383 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
@@ -42,27 +43,28 @@
 		0FCDCB04EF14670130A2E20CF935CACA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14EA2580D42DD647AB760130F331ECD9 /* Pods-maskedTextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-maskedTextField_Tests-dummy.m"; sourceTree = "<group>"; };
 		1796DF517A65B06F45123645CEBA7C24 /* Pods-maskedTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-maskedTextField_Example.modulemap"; sourceTree = "<group>"; };
-		24382DFBD67233441D767D1697610A5F /* maskedTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = maskedTextField.framework; path = maskedTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24382DFBD67233441D767D1697610A5F /* maskedTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = maskedTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		274FBFFB46DC97996A1FAABB3A4445B4 /* Pods-maskedTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-maskedTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
 		33B743F8948D41E21144D215B8CEE516 /* Pods-maskedTextField_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-maskedTextField_Example-resources.sh"; sourceTree = "<group>"; };
 		35C1AABBE44CE2D96FF4FDF8D43D0048 /* Pods-maskedTextField_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-maskedTextField_Tests-resources.sh"; sourceTree = "<group>"; };
-		3BD9F50B78D94DEE8E80815DBAE6E769 /* Pods_maskedTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_maskedTextField_Example.framework; path = "Pods-maskedTextField_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BD9F50B78D94DEE8E80815DBAE6E769 /* Pods_maskedTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_maskedTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		445FC34C4FF27386A60D4F591CC3AC96 /* maskedTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = maskedTextField.modulemap; sourceTree = "<group>"; };
-		4ADA901AAA214C06F23A0E994BA41556 /* maskedTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = maskedTextField.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4ADA901AAA214C06F23A0E994BA41556 /* maskedTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = maskedTextField.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4F38D527C20987BB9EAB4A2833C82896 /* Pods-maskedTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-maskedTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		501A932EC641CB01C9C9853DD4391C02 /* Pods-maskedTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-maskedTextField_Example-umbrella.h"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5C7C01B32153F80A00854FA0 /* maskedTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maskedTextFieldDelegate.swift; sourceTree = "<group>"; };
 		6F7E6559614313FBB22F382ED0AEE98F /* maskedTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = maskedTextField.xcconfig; sourceTree = "<group>"; };
 		70FAF479154FB520AAF0917979AEF1E1 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = maskedTextField/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		74CDD035DE9E3041510FB2AA8DC0866E /* Pods-maskedTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-maskedTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
-		85096319C9A02D25939CA1E1463FEBB8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		85096319C9A02D25939CA1E1463FEBB8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8ECF7B1E849263BFFD329ECA6812D3D9 /* Pods-maskedTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-maskedTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96DD5EDA91519BED6EA27CD913709AA0 /* Pods_maskedTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_maskedTextField_Tests.framework; path = "Pods-maskedTextField_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96DD5EDA91519BED6EA27CD913709AA0 /* Pods_maskedTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_maskedTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A337F8D3627D861ABA2A2AE459F9CEE1 /* Pods-maskedTextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-maskedTextField_Tests.modulemap"; sourceTree = "<group>"; };
 		AA77FA381937649EE254F14ADC11C916 /* Pods-maskedTextField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-maskedTextField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AE4A8F7BC3B23D446061FCA86C9F8A6E /* Pods-maskedTextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-maskedTextField_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B5151221AB81F5B2CF9CAABA9B7D2E2D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B5151221AB81F5B2CF9CAABA9B7D2E2D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BF170FC80C3EE193CC63BAFC7D556057 /* maskedTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "maskedTextField-dummy.m"; sourceTree = "<group>"; };
 		C0615D1EA3AE3685C496B966C9AD98EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE53FB586E53795338D3744C17F02543 /* Pods-maskedTextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-maskedTextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -222,6 +224,7 @@
 				70FAF479154FB520AAF0917979AEF1E1 /* ReplaceMe.swift */,
 				271E97C3E962CFBE91BD84AA4806286A /* Pod */,
 				63998B7098D07A95B10C0DBCCBA144FA /* Support Files */,
+				5C7C01B32153F80A00854FA0 /* maskedTextFieldDelegate.swift */,
 			);
 			name = maskedTextField;
 			path = ../..;
@@ -353,6 +356,7 @@
 			files = (
 				8C99F0282F6F94A3B2F11A9F1759EFC2 /* maskedTextField-dummy.m in Sources */,
 				361439BC105C0E8EA5B102B8CB032F3F /* ReplaceMe.swift in Sources */,
+				5C7C01B42153F80A00854FA0 /* maskedTextFieldDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -578,6 +582,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
@@ -636,6 +641,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_VERSION = 4.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
