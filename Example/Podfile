@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'maskedTextField_Example' do
+  pod 'maskedTextField', :path => '../'
+
+  target 'maskedTextField_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
