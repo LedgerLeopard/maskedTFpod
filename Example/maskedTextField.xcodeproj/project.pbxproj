@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		004B2260AC892B6CA170D951 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		004B2260AC892B6CA170D951 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		0904861F2F3540479131D7BC /* Pods-maskedTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-maskedTextField_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-maskedTextField_Tests/Pods-maskedTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3D30BDB909C768DD694E85B1 /* maskedTextField.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = maskedTextField.podspec; path = ../maskedTextField.podspec; sourceTree = "<group>"; };
+		3D30BDB909C768DD694E85B1 /* maskedTextField.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = maskedTextField.podspec; path = ../maskedTextField.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4C3B83F451F0944CF8D1E1B7 /* Pods_maskedTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_maskedTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* maskedTextField_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = maskedTextField_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		607FACE51AFB9204008FA782 /* maskedTextField_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = maskedTextField_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		639856E3D0FD149F81F1391D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		639856E3D0FD149F81F1391D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A7A93CBE498FD41BB7AB6304 /* Pods-maskedTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-maskedTextField_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-maskedTextField_Tests/Pods-maskedTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A9FF7BE712DBBAFEA1F1CF13 /* Pods_maskedTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_maskedTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB5A6E87B2406FF21A19F2AD /* Pods-maskedTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-maskedTextField_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-maskedTextField_Example/Pods-maskedTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
