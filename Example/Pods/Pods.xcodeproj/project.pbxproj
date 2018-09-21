@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		59D810C99A94E635C253840619E8F76B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		5C18CCEB2155330D00C3E6B9 /* maskedTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18CCEA2155330C00C3E6B9 /* maskedTextFieldDelegate.swift */; };
+		5C1AD95E2155591E005336EE /* maskedTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1AD95D2155591E005336EE /* maskedTextFieldDelegate.swift */; };
 		6A269FCA6EC4A4AB234A1D0C3789607D /* maskedTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF170FC80C3EE193CC63BAFC7D556057 /* maskedTextField-dummy.m */; };
 		9083B26D66BB4F05748C5AF1C634E522 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
 		957230E7ABCCA84452796D9B1EB0F7B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
@@ -52,7 +52,7 @@
 		4ADA901AAA214C06F23A0E994BA41556 /* maskedTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = maskedTextField.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4F38D527C20987BB9EAB4A2833C82896 /* Pods-maskedTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-maskedTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		501A932EC641CB01C9C9853DD4391C02 /* Pods-maskedTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-maskedTextField_Example-umbrella.h"; sourceTree = "<group>"; };
-		5C18CCEA2155330C00C3E6B9 /* maskedTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = maskedTextFieldDelegate.swift; sourceTree = "<group>"; };
+		5C1AD95D2155591E005336EE /* maskedTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = maskedTextFieldDelegate.swift; path = maskedTextField/Classes/maskedTextFieldDelegate.swift; sourceTree = "<group>"; };
 		6F7E6559614313FBB22F382ED0AEE98F /* maskedTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = maskedTextField.xcconfig; sourceTree = "<group>"; };
 		74CDD035DE9E3041510FB2AA8DC0866E /* Pods-maskedTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-maskedTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
 		85096319C9A02D25939CA1E1463FEBB8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -223,7 +223,7 @@
 		FD9DFB88AD77ABA0D3EA349B518DF807 /* maskedTextField */ = {
 			isa = PBXGroup;
 			children = (
-				5C18CCEA2155330C00C3E6B9 /* maskedTextFieldDelegate.swift */,
+				5C1AD95D2155591E005336EE /* maskedTextFieldDelegate.swift */,
 				271E97C3E962CFBE91BD84AA4806286A /* Pod */,
 				63998B7098D07A95B10C0DBCCBA144FA /* Support Files */,
 			);
@@ -364,7 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A269FCA6EC4A4AB234A1D0C3789607D /* maskedTextField-dummy.m in Sources */,
-				5C18CCEB2155330D00C3E6B9 /* maskedTextFieldDelegate.swift in Sources */,
+				5C1AD95E2155591E005336EE /* maskedTextFieldDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

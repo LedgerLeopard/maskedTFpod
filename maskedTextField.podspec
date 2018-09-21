@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'maskedTextField'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = 'Delegate for UITextField to simplify work with masks'
 
 # This description is used to generate tags and improve search results.
@@ -22,11 +22,11 @@ Pod::Spec.new do |s|
   This pod includes a delegate for UITextField, which should helps you to make your text field more user-friendly. Also it provides you to get structured callbacks from your field. 
                        DESC
 
-  s.homepage         = 'https://github.com/iuriigushchin/maskedTextField'
+  s.homepage         = 'https://github.com/LedgerLeopard/maskedTFpod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'iuriigushchin' => 'yurii.gushchin@ledgerleopard.com' }
-  s.source           = { :git => 'https://github.com/iuriigushchin/maskedTextField.git', :tag => s.version.to_s }
+  s.author           = { 'iuriigushchin,6epreu' => 'yurii.gushchin@ledgerleopard.com' }
+  s.source           = { :git => 'https://github.com/LedgerLeopard/maskedTFpod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'

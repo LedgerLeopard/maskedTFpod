@@ -15,7 +15,6 @@ extension String {
         return self[strIndex]
     }
 }
-
 public enum Action {
     case Delete, Insert
 }
