@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  maskedTextField: aae443f599ceb6936acefe3b8aeb6a85bade2767
+  maskedTextField: affd82bb251ef62633805bfcd66110ecef8b010e
 
 PODFILE CHECKSUM: 9da388098167fb9e4afa8ba226f1981eddf5785e
 

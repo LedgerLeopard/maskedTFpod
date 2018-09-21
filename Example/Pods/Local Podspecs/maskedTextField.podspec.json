@@ -1,8 +1,8 @@
 {
   "name": "maskedTextField",
   "version": "0.1.0",
-  "summary": "A short description of maskedTextField.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Delegate for UITextField to simplify work with masks",
+  "description": "This pod includes a delegate for UITextField, which should helps you to make your text field more user-friendly. Also it provides you to get structured callbacks from your field.",
   "homepage": "https://github.com/iuriigushchin/maskedTextField",
   "license": {
     "type": "MIT",
@@ -16,7 +16,8 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "maskedTextField/Classes/**/*"
+  "source_files": "maskedTextField/Classes/**/*",
+  "frameworks": "UIKit"
 }
