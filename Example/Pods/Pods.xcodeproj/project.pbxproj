@@ -14,7 +14,6 @@
 		957230E7ABCCA84452796D9B1EB0F7B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
 		9C8302640DFFD9C1484A55AFEB9BB844 /* maskedTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFDDEB1F6779EA36CCBE951737FD9375 /* maskedTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A50222D3DD520812B26EE53BBE6222D1 /* Pods-maskedTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE4A8F7BC3B23D446061FCA86C9F8A6E /* Pods-maskedTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D33E4FF356D602F6766EA56B98F54BC5 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FAF479154FB520AAF0917979AEF1E1 /* ReplaceMe.swift */; };
 		D926BDEDE6E55E5E0528A4384C19897B /* Pods-maskedTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5A774997E39DD5E52EF9A30216D041 /* Pods-maskedTextField_Example-dummy.m */; };
 		DA0AD82AF91B9E8A09457738ADB854CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
 		F2BB73FCB91D06CF6CE7A5D5F0EBC08E /* Pods-maskedTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EA2580D42DD647AB760130F331ECD9 /* Pods-maskedTextField_Tests-dummy.m */; };
@@ -55,7 +54,6 @@
 		501A932EC641CB01C9C9853DD4391C02 /* Pods-maskedTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-maskedTextField_Example-umbrella.h"; sourceTree = "<group>"; };
 		5C18CCEA2155330C00C3E6B9 /* maskedTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = maskedTextFieldDelegate.swift; sourceTree = "<group>"; };
 		6F7E6559614313FBB22F382ED0AEE98F /* maskedTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = maskedTextField.xcconfig; sourceTree = "<group>"; };
-		70FAF479154FB520AAF0917979AEF1E1 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = maskedTextField/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		74CDD035DE9E3041510FB2AA8DC0866E /* Pods-maskedTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-maskedTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
 		85096319C9A02D25939CA1E1463FEBB8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8ECF7B1E849263BFFD329ECA6812D3D9 /* Pods-maskedTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-maskedTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -226,7 +224,6 @@
 			isa = PBXGroup;
 			children = (
 				5C18CCEA2155330C00C3E6B9 /* maskedTextFieldDelegate.swift */,
-				70FAF479154FB520AAF0917979AEF1E1 /* ReplaceMe.swift */,
 				271E97C3E962CFBE91BD84AA4806286A /* Pod */,
 				63998B7098D07A95B10C0DBCCBA144FA /* Support Files */,
 			);
@@ -367,7 +364,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A269FCA6EC4A4AB234A1D0C3789607D /* maskedTextField-dummy.m in Sources */,
-				D33E4FF356D602F6766EA56B98F54BC5 /* ReplaceMe.swift in Sources */,
 				5C18CCEB2155330D00C3E6B9 /* maskedTextFieldDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

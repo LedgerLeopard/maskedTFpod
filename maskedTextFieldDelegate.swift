@@ -16,11 +16,11 @@ extension String {
     }
 }
 
-enum Action {
+public enum Action {
     case Delete, Insert
 }
 
-struct symbolWithProperties {
+public struct symbolWithProperties {
     var editable : Bool
     var requiredToPresent : Bool
     var needToReturn : Bool
@@ -28,7 +28,7 @@ struct symbolWithProperties {
     var symbol : Character?
     var position : Int?
     
-    init(editable: Bool, requiredToPresent: Bool, needToReturn: Bool, characterSet: CharacterSet?, symbol: Character?, position: Int?) {
+    public init(editable: Bool, requiredToPresent: Bool, needToReturn: Bool, characterSet: CharacterSet?, symbol: Character?, position: Int?) {
         self.editable = editable
         self.requiredToPresent = requiredToPresent
         self.needToReturn = needToReturn
