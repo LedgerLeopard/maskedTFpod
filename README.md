@@ -48,23 +48,22 @@ There are 6 types of symbols, which you can use into square brackets:
 
 * '0' - one number (necessary)
 
-* '9' - one  number (not necessary)
+* '9' - one number (not necessary)
 
-* 'A' - ane letter (necessary)
+* 'A' - one letter (necessary)
 
-* 'a' - one not letter (not necessary)
+* 'a' - one letter (not necessary)
 
 * '_' - one any character (necessary)
 
 * '-' - one any character (not necessary)
 
-What does "necessary/not necessary" flag means? - It means, that on the place of necessary character will be shown int your UITextField mask as "_" symbol. Not necessary symbols won't be shown.
+"Necessary/not necessary" means that symbol is necessaty for input.
 
 
 ## Examples
 There are some examples, which could help you to understand this logic:
-+ 7 ([000]) [000] - [0000] - this mask provides you to get 10-digit callback with numbers,
-  which user will enter. Clear result could be between 0000000000 and 9999999999
++ 7 ([000]) [000] - [0000] - this mask provides you to get 10-digit callback with numbers. Clear result could be between 0000000000 and 9999999999
   
 ![AltText](https://media.giphy.com/media/1wPDeANHRdnDBTTgYE/giphy.gif)
 
@@ -73,7 +72,7 @@ There are some examples, which could help you to understand this logic:
   
 ![AltText](https://media.giphy.com/media/wp0uyXpTnuf4VFAdmd/giphy.gif)
 
-+ {7} ([000]) [000] - [9999] - this mask provides you to get 7,8,9,10 or 11-counted digit.
++ {7} ([000]) [000] - [9999] - this mask provides you to get 7,8,9,10 or 11-digit callback.
   Clear result could be between (7000000,79999999999).
 
 ![AltText](https://media.giphy.com/media/3eTRoLOkcZtMgu3xPt/giphy.gif)
