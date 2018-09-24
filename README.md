@@ -7,7 +7,7 @@
 
 
 
-Delegate for UITextField to simplify work with masks!
+Delegate for UITextField to work with input mask. 
 
 
 ## Example
@@ -38,27 +38,26 @@ pod install
 
 
 ## Masks logic
-To work with this delegate you should set a mask for it. There are some logic, and your mask will worlk according to it. Here we go: 
+Description of input mask protocol represented below.
 
 All symbols, which user should enter, must be bracketed with square **[]** brackets.
-If symbols are not necesseary to enter, but are needed in mask's callback, you should write it in the curly  **{}** brackets.
-All symbols, which should be presented **only**, must be written in mask without any brackets.
+If symbols are not necesseary, but are needed in mask's callback, they should be surrounded by curly  **{}** brackets.
+All symbols, which should be presented  **as is**, must be written in mask without any brackets.
 
 There are 6 types of symbols, which you can use into square brackets:
 
-* '0' - one number (necessary)
+* **'0'** - required number. Mask **[000]** requires to fill **777** for example
 
-* '9' - one number (not necessary)
+* **'9'** - optional number. Mask **[999]** offers to fill **777** for example
 
-* 'A' - one letter (necessary)
+* **'A'** - required letter. Mask **[AAA]** requires to fill **abc** for example
 
-* 'a' - one letter (not necessary)
+* **'a'** - required letter. Mask **[aaa]** offers to fill **abc** for example
 
-* '_' - one any character (necessary)
+* **'_'** - required digit or letter. Mask **[00___]** offers to fill **78a3b** for example
 
-* '-' - one any character (not necessary)
+* **'-'** - optional difit or letter. Mask **[00---]** offers to fill **78-6-** for example
 
-"Necessary/not necessary" means that symbol is necessaty for input.
 
 
 ## Examples
