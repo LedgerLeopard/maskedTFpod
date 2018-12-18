@@ -92,8 +92,10 @@ There are some examples, which could help you to understand this logic:
 
 ## Author
 
-6epreu, 6epreu@gmail.com
 iuriigushchin, yurii.gushchin@ledgerleopard.com
+
+6epreu, 6epreu@gmail.com
+
 
 ## License
 
